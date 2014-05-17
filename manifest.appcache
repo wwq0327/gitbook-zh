@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# Revision 1400319172499
+# Revision 1400319276067
 
 CACHE:
 book/README.html
@@ -7,8 +7,8 @@ book/file.html
 book/prjinit.html
 index.html
 end/README.html
-howtouse/Nodejsinstall.html
 howtouse/README.html
+howtouse/Nodejsinstall.html
 howtouse/gitbookcli.html
 howtouse/gitbookinstall.html
 output/README.html
@@ -52,8 +52,8 @@ gitbook/jsrepl/sandbox.html
 gitbook/jsrepl/sandbox.js
 gitbook/print.css
 gitbook/style.css
-gitbook/plugins/gitbook-plugin-mathjax/plugin.js
 gitbook/plugins/gitbook-plugin-mixpanel/plugin.js
+gitbook/plugins/gitbook-plugin-mathjax/plugin.js
 
 NETWORK:
 *
