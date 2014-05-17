@@ -1,4 +1,4 @@
-* [如何使用](howtouse/README.md)
+* [基本安装](howtouse/README.md)
  - [Node.js安装](howtouse/Nodejsinstall.md)
  - [gitbook安装](howtouse/gitbookinstall.md)
  - [gitbook命令行速览](howtouse/gitbookcli.md)
