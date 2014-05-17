@@ -1,9 +1,9 @@
 CACHE MANIFEST
-# Revision 1400308461971
+# Revision 1400308577322
 
 CACHE:
-book/README.html
 index.html
+book/README.html
 book/file.html
 book/prjinit.html
 howtouse/Nodejsinstall.html
@@ -12,8 +12,8 @@ howtouse/gitbookcli.html
 howtouse/gitbookinstall.html
 output/README.html
 output/outfile.html
-publish/README.html
 output/pdfandebook.html
+publish/README.html
 publish/gitpages.html
 gitbook/app.js
 gitbook/fonts/anonymouspro/400.woff
