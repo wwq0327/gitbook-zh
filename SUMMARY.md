@@ -7,6 +7,6 @@
  - [目录初始化](book/prjinit.md)
 * [图书输出](output/README.md)
  - [输出为静态网站](output/outfile.md)
- - [输出PDF/eBook](output/pdfandebook.md)
+ - [输出PDF](output/pdfandebook.md)
 * [发布](publish/README.md)
  - [发布到git pages](publish/gitpages.md)
