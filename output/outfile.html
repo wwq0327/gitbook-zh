@@ -42,7 +42,7 @@
 
 
         
-    <div class="book" data-github="wwq0327/gitbook-zh" data-level="3.1" data-basepath=".." data-revision="1400304746143">
+    <div class="book" data-github="wwq0327/gitbook-zh" data-level="3.1" data-basepath=".." data-revision="1400308461970">
     <div class="book-header">
     <!-- Actions Left -->
     
@@ -218,7 +218,7 @@
                         <li  data-level="3.2" data-path="output/pdfandebook.html">
                             
                             <a href="../output/pdfandebook.html">
-                                <i class="fa fa-check"></i> <b>3.2.</b> 输出PDF/eBook
+                                <i class="fa fa-check"></i> <b>3.2.</b> 输出PDF
                             </a>
                             
                         </li>
@@ -287,7 +287,7 @@
     
         <a href="../output/outfile.html" title="输出为静态网站" class="chapter done " data-progress="3.1" style="left: 75%;"></a>
     
-        <a href="../output/pdfandebook.html" title="输出PDF/eBook" class="chapter  " data-progress="3.2" style="left: 83.33333333333333%;"></a>
+        <a href="../output/pdfandebook.html" title="输出PDF" class="chapter  " data-progress="3.2" style="left: 83.33333333333333%;"></a>
     
         <a href="../publish/README.html" title="发布" class="chapter  new-chapter" data-progress="4" style="left: 91.66666666666667%;"></a>
     
@@ -318,7 +318,19 @@ Serving book on http://localhost:<span class="hljs-number">4000</span>
 </code></pre>
 <p>你可以你的浏览器中打开这个网址：<a href="http://localhost:4000" target="_blank">http://localhost:4000</a>：</p>
 <p><img src="../imgs/yl.png" alt=""></p>
+<p>这里你会发现，你在你的图书项目的目录中多了一个名为<code>_book</code>的文件目录，而这个目录中的文件，即是生成的静态网站内容。</p>
 <p><strong>使用build参数生成到指定目录</strong></p>
+<p>与直接预览生成的静态网站文件不一样的是，使用这个命令，你可以将内容输入到你所想要的目录中去：</p>
+<pre><code class="lang-bash">$ mkdir /tmp/gitbook
+$ gitbook build --output=/tmp/gitbook
+Starting build ...
+Successfuly built !
+$ ls /tmp/gitbook/
+LICENSE           howtouse          manifest.appcache search_index.json
+book              imgs              output
+gitbook           index.html        publish
+</code></pre>
+<p>无论哪种方式，你都可以将这个文件打包，然后把你的书发给你的朋友们了！</p>
 
                     
                     </section>

@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# book: http://ogp.me/ns/book#">
         
         <meta charset="UTF-8">
-        <title>输出PDF/eBook | Gitbook 使用入门</title>
+        <title>输出PDF | Gitbook 使用入门</title>
 
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="robots" content="index, follow">
@@ -19,7 +19,7 @@
         <link rel="prev" href="../output/outfile.html" />
         
 
-        <meta property="og:title" content="输出PDF/eBook | Gitbook 使用入门">
+        <meta property="og:title" content="输出PDF | Gitbook 使用入门">
         <meta property="og:site_name" content="Gitbook 使用入门">
         <meta property="og:type" content="book">
         <meta property="og:locale" content="en_US">
@@ -42,7 +42,7 @@
 
 
         
-    <div class="book" data-github="wwq0327/gitbook-zh" data-level="3.2" data-basepath=".." data-revision="1400304746143">
+    <div class="book" data-github="wwq0327/gitbook-zh" data-level="3.2" data-basepath=".." data-revision="1400308461970">
     <div class="book-header">
     <!-- Actions Left -->
     
@@ -218,7 +218,7 @@
                         <li  data-level="3.2" data-path="output/pdfandebook.html">
                             
                             <a href="../output/pdfandebook.html">
-                                <i class="fa fa-check"></i> <b>3.2.</b> 输出PDF/eBook
+                                <i class="fa fa-check"></i> <b>3.2.</b> 输出PDF
                             </a>
                             
                         </li>
@@ -287,7 +287,7 @@
     
         <a href="../output/outfile.html" title="输出为静态网站" class="chapter done " data-progress="3.1" style="left: 75%;"></a>
     
-        <a href="../output/pdfandebook.html" title="输出PDF/eBook" class="chapter done " data-progress="3.2" style="left: 83.33333333333333%;"></a>
+        <a href="../output/pdfandebook.html" title="输出PDF" class="chapter done " data-progress="3.2" style="left: 83.33333333333333%;"></a>
     
         <a href="../publish/README.html" title="发布" class="chapter  new-chapter" data-progress="4" style="left: 91.66666666666667%;"></a>
     
@@ -297,6 +297,29 @@
 </div>
 
                 <div class="page-inner">
+                
+                    <section class="normal" id="section-gitbook_12">
+                    
+                        <h1 id="-pdf">输出PDF</h1>
+<p>输入为PDF文件，需要先使用NPM安装上<code>gitbook pdf</code>：</p>
+<pre><code class="lang-bash">$ npm install gitbook-pdf -g
+</code></pre>
+<blockquote>
+<p>笔者在安装这个模块的时候，当下载一个名为<code>phantomjs</code>的包时，出现请求未能响应的情况，这时，你可以到这个应用的网站上去下载：</p>
+<p><a href="http://phantomjs.org/" target="_blank">http://phantomjs.org/</a></p>
+<p>这个包的安装方法，请看网站上的说明。</p>
+</blockquote>
+<p>然后，使用下面的命令，可生成PDF文件了：</p>
+<pre><code class="lang-bash">$ gitbook pdf ./图书目录
+</code></pre>
+<p>如果你在图书目录内容，也可以这样做：</p>
+<pre><code class="lang-bash">$ gitbook pdf .
+</code></pre>
+<p>然后，你会发现你的目录里多了一个名为<code>book.pdf</code>的文件，就是它了！</p>
+<p>但是，笔者在测试的时候发现，生成的PDF文件在排版上不是合理，如页面的边距明显过小，如果是图文混排的话，整个版面感觉有些零乱。</p>
+
+                    
+                    </section>
                 
                 </div>
             </div>
