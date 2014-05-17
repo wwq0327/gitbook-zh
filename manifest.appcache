@@ -1,9 +1,9 @@
 CACHE MANIFEST
-# Revision 1400312306444
+# Revision 1400319172499
 
 CACHE:
-book/file.html
 book/README.html
+book/file.html
 book/prjinit.html
 index.html
 end/README.html
