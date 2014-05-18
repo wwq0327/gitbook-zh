@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gitbook build .
+gitbook build . --config=book.json
 cp -rf _book/* ~/tmp/gitbook
 cd ~/tmp/gitbook
 git add .
