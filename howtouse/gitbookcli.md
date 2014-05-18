@@ -6,7 +6,7 @@ Gitbook是一个命令行工具，使用方法：
 **本地预览**
 
 ```bash
-$ gitbook serve ./图书名称名
+$ gitbook serve ./图书名称
 ```
 
 **输出一个静态网站**
