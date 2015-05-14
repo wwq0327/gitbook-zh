@@ -1,8 +1,8 @@
 #!/bin/bash
 
 gitbook build . --config=book.json
-cp -rf _book/* ~/tmp/gitbook
-cd ~/tmp/gitbook
+cp -r _book/* ~/tmp/gitbook-zh
+cd ~/tmp/gitbook-zh
 git add .
 git ci -m 'pub'
 git push origin gh-pages
